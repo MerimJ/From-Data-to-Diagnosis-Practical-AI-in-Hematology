@@ -75,7 +75,8 @@ python src/hematology/analyzer.py --input your_data.csv
 
 ## 🤝 Acknowledgements
 
-- Faculty of Health Studies, University of Sarajevo  
+- Faculty of Health Studies, University of Sarajevo
+- Faculty of Electrical Engineering, University of Sarajevo  
 - Clinical Center of the University of Sarajevo  
 - OpenAI GPT-4 & RAG pipelines  
 - Reviewers for scoring model output
