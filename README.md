@@ -46,6 +46,16 @@ python src/hematology/analyzer.py
 ## 🚀 Try It in Colab
 👉 [Open in Google Colab](https://colab.research.google.com/github/yourusername/hematology-ai/blob/main/notebooks/demo_colab.ipynb)
 
+This notebook will:
+
+Load sample hematology lab results from CSV
+
+Generate diagnostic interpretations using GPT and RAG-GPT
+
+Display Likert scores and output comparisons
+
+Export results into formatted PDF reports
+
 ---
 
 ## 📊 Evaluation Results
