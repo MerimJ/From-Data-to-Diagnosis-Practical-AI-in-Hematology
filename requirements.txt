@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+pdfkit
+scikit-learn>=1.2
+matplotlib
+openpyxl
