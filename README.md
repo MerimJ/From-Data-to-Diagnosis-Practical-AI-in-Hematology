@@ -74,8 +74,8 @@ python src/hematology/analyzer.py --input your_data.csv
 
 ## 🤝 Acknowledgements
 
-- Faculty of Health Studies, University of Sarajevo  
-- Clinical Center of the University of Sarajevo  
+- Faculty of Health Studies, University of Sarajevo
+- Faculty of Electrical Engineering, University of Sarajevo
 - OpenAI GPT-4 & RAG pipelines  
 - Reviewers for scoring model output
 
@@ -91,5 +91,3 @@ See [`LICENSE`](./LICENSE) for full terms.
 ## 🖼️ Project Visual Summary
 
 ![Project Poster](./Poster.png)
-
-This poster illustrates the motivation, design, and outcomes of the AI-based hematology analysis framework.
