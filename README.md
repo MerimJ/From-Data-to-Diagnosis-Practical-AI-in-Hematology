@@ -21,20 +21,21 @@ The study compares baseline GPT-4 and a retrieval-augmented GPT-4 (RAG) agent in
 
 ## 📂 Repository Contents
 
-| Folder | Description |
-|--------|-------------|
-| `/data` | Lab dataset (100 patients), reviewer scores |
-| `/src/hematology` | Core Python logic for lab analysis |
-| `/results` | Summary table, graphs, and visuals |
-| `/notebooks` | Colab-ready demo |
-| `/docs` | Paper, how-to guides, and summaries |
+| Folder             | Description                                         |
+|--------------------|-----------------------------------------------------|
+| `/data`            | Lab dataset, reviewer scores, and supporting files  |
+| `/src/hematology`  | Core Python logic for lab analysis and reporting    |
+| `/notebooks`       | Colab-ready interactive demo                        |
+| `/results`         | Summary table, charts, and visual evaluation        |
+| `/docs`            | Full paper, templates, and method documentation     |
+| `/tests`           | Unit tests for analysis modules                     |
 
 ---
 
 ## 🛠️ Quick Start (Local)
 ```bash
-git clone https://github.com/yourusername/hematology-ai.git
-cd hematology-ai
+git clone https://github.com/MerimJ/From-Data-to-Diagnosis-Practical-AI-in-Hematology.git
+cd From-Data-to-Diagnosis-Practical-AI-in-Hematology
 pip install -r requirements.txt
 
 python src/hematology/analyzer.py
@@ -56,18 +57,20 @@ python src/hematology/analyzer.py
 | GPT + RAG     | R1      | 3.56       | 0.25        | 48%          |
 | GPT + RAG     | R2      | 3.20       |             | 32%          |
 
+🔬 These results reflect the expert evaluation of 100 reports
+🧑‍⚕️ Reviewed independently by two laboratory professionals
+
 ---
 
 ## 🔁 Want to Run Your Own Study?
 
-Switch to the `replication-template` branch:
-```bash
 git checkout replication-template
-```
+python src/hematology/analyzer.py --input path_to_your_lab_data.csv
 
-Use your own lab dataset and generate reports with:
-```bash
-python src/hematology/analyzer.py --input your_data.csv
+```
+PatientID,Hb,WBC,Platelets,MCV,MCH,MCHC,...
+101,12.5,7.2,250,90.2,31.4,33.6
+
 ```
 
 ---
